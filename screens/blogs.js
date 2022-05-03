@@ -22,6 +22,7 @@ const Blogs = (props) => {
         if (name === "tags") {
             const tags = value.split(",");
             console.log(tags);
+            console.log("alo")
             setState({...state, tags});
         } else {
             setState({...state, [name]: value});
